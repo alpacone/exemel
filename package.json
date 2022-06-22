@@ -1,0 +1,20 @@
+{
+  "name": "exemel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "pkg -t node16-win-x64 -o exemel index.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "flattie": "^1.1.0",
+    "nestie": "^1.0.2",
+    "pretty-hrtime": "^1.0.3",
+    "xml-js": "^1.6.11"
+  }
+}
