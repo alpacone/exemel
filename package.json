@@ -9,6 +9,7 @@
     "build": "pkg -t node16-win-x64 -o exemel index.js"
   },
   "devDependencies": {
+    "pkg": "^5.7.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
